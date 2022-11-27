@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Staatliches", cursive;
+  background-color: #212121;
+}
+.navbar {
+  background: rgba(255, 255, 255, 0.066);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.041);
+  padding: 0.7rem 0 0.5rem 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.navbar_parent {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar_child {
+  list-style: none;
+}
+
+.navbar_child a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.hero_sec {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero_heading {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 10rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.hero_image {
+  width: 45%;
+  height: 45%;
+  
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(154, 2, 2);
+    
+  }
+  to {
+    text-shadow: 0 0 20px rgb(195, 121, 2);
+  }
+}
+
+.about_sec {
+  margin-top: 10rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about_heading {
+  font-size: 3rem;
+}
